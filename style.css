@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  background-color: #1F2937;
+  justify-content: space-between;
+  padding: 16px;
+  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-link {
+  display: flex;
+  font-size: 24px; 
+  color: #F9FAF8;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #F9FAF8;
+
+}
+
+.right-links {
+  display: flex;
+  gap: 16px;
+}
