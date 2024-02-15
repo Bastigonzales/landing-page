@@ -35,6 +35,18 @@ a {
 
 }
 
+button {
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 32px 8px 32px;
+  background-color: #3882f6;
+  color: #F9FAF8;
+  border-radius: 8px;
+  border-color: #3882f6;
+  margin-top: 8px;
+}
+
 .right-links {
   display: flex;
   font-size: 18px;
@@ -44,33 +56,38 @@ a {
 }
 
 
+.header-body {
+  display: flex;
+  background-color: #1F2937;
+}
+
 .container {
-  width: 950px;
+  display: flex;
 }
 
 
-.hero-main {
-  display: flex;
+.left-text {
+  padding-left: 128px;
+  margin: 48px;
   font-size: 48px;
-  font-weight: 800;
+  font-weight: bolder;
   color: #F9FAF8;
-  background-color: #1F2937;
 
 }
 
 
 .sub-text {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: normal;
   color: #E5E7EB;
 }
 
-.image {
+.right-text {
   display: flex;
+  color: #F9FAF8;
   font-size: 18px;
-  font-weight: 500;
   background-color: gray;
-  padding: 80px;
-  margin: 90px;
+  padding: 90px;
+  margin: 30px;
 
 }
