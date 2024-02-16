@@ -99,29 +99,28 @@ button {
 
 }
 
-/* Info Header */
+/* Info Body */
 
 .info-title {
   display: flex;
   justify-content: center;
-  text-align: center;
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
-  margin: 32px 0 64px 0;
 }
 
-.info-body {
+.boxes {
+  color: #1F2937;
+  font-size: 18px;
   display: flex;
-  justify-content: center;
 }
 
-.card {
-  
-  border-radius: 15px;
-  border: 4px solid #3882f6;
-  padding: 50px;
-  max-width: 200px;
-  height: 10px;
-  
+.square {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  padding: 8px;
+  border: 4px solid;
+  border-color: #3882f6;
+  border-radius: 16px;
 }
