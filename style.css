@@ -131,7 +131,27 @@ button {
   border-radius: 16px;
 }
 
+/* Quote Section */
+.container-two  {
+   display: flex;
+   justify-content: center;
+   background-color: #E5E7EB;
+   padding: 150px;
+}
 
+.quote  {
+  max-width: 770px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.author {
+}
+
+
+/* Footer */
 .footer {
   display: flex;
   justify-content: center;
