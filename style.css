@@ -1,7 +1,7 @@
 body {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
@@ -11,8 +11,8 @@ body {
 }
 
 body {
-	display: flex;
-	flex-direction: column;
+	font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 16px;
 }
 
 .logo-link {
@@ -64,8 +64,17 @@ button {
 	display: flex;
 }
 
+.header-body .container .left-text {
+	width: 35%;
+}
+
+.header-body .container .left-text .sub-text {
+	width: 70%;
+}
+
 .left-text {
 	padding-left: 128px;
+	width: 70%;
 	margin: 48px;
 	font-size: 48px;
 	font-weight: bolder;
@@ -111,6 +120,7 @@ button {
 	justify-content: center;
 	margin: 25px 300px 25px 300px;
 	gap: 50px;
+	max-width: 100%;
 }
 
 .square {
